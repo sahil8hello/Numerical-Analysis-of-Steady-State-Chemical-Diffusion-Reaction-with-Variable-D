@@ -47,14 +47,3 @@ $$D_{i-\frac{1}{2}} C_{A,i-1} - \left(D_{i-\frac{1}{2}} + D_{i+\frac{1}{2}} + k\
 To capture continuity between the discrete $101$ spatial points, a continuous **Natural Cubic Spline** interpolation profile is constructed, explicitly enforcing that the second derivative of concentration vanishes at the outer physical boundaries ($\frac{d^2C_A}{dx^2} = 0$).
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-* MATLAB (R2021a or newer recommended)
-* No external toolboxes required.
-
-### Execution
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/variable-diff-reaction-fdm.git](https://github.com/YOUR_USERNAME/variable-diff-reaction-fdm.git)
